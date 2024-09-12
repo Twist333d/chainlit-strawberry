@@ -1,13 +1,12 @@
 # Chainlit Strawberry 🍓
 
-This project is a chatbot application that uses OpenAI's latest model, o1-preview, to generate responses. It's built with Chainlit, providing a seamless chat interface for interacting with the AI.
+Chat with `o1-preview` via API in Chainlit.
 
 ## Features
 
-- Utilizes OpenAI's o1-preview model for state-of-the-art language processing
+- Utilizes OpenAI's o1-preview model 
 - Implements a conversational memory to maintain context throughout the chat
-- Built with Chainlit for an intuitive and responsive chat interface
-- Handles API errors gracefully
+- Built with Chainlit 
 
 ## Prerequisites
 
@@ -24,9 +23,9 @@ Before you begin, ensure you have met the following requirements:
    cd chainlit-strawberry
    ```
 
-2. Install the required dependencies:
+2. Install the required dependencies using Poetry:
    ```
-   pip install -r requirements.txt
+   poetry install
    ```
 
 3. Set up your environment variables:
@@ -43,31 +42,5 @@ To run the chatbot, use the following command:
 chainlit run app.py
 ```
 
-This will start the Chainlit server, and you can access the chat interface by opening a web browser and navigating to `http://localhost:8000`.
+Enjoy chatting with 🍓🤖!
 
-## Configuration
-
-You can modify the `app.py` file to change the behavior of the chatbot. Key areas you might want to adjust include:
-
-- The model name (currently set to "o1-preview")
-- The system message or initial prompt
-- The conversation history management
-
-## Contributing
-
-Contributions to the Chainlit Strawberry project are welcome. Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- OpenAI for providing the o1-preview model
-- Chainlit for the excellent chat interface framework
-
-## Contact
-
-If you have any questions or feedback, please open an issue on the GitHub repository.
-
-Enjoy chatting with the latest AI technology! 🍓🤖
