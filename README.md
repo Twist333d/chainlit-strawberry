@@ -18,6 +18,7 @@ Before you begin, ensure you have met the following requirements:
 
 - Python 3.7+
 - An OpenAI API key
+- Poetry (for dependency management)
 
 ## Installation
 
