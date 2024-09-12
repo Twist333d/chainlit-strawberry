@@ -2,6 +2,10 @@
 
 Chat with `o1-preview` via API in Chainlit.
 
+## Important note
+- Some features are NOT available via API yet: function calling, streaming, system prompt
+- Only Tier 5 API users can access the model
+
 ## Features
 
 - Utilizes OpenAI's o1-preview model 
