@@ -18,7 +18,7 @@ def save_message(role, content):
 
 @cl.on_chat_start
 async def start():
-    await cl.Message(content="🍓Was the hype worth it? 🍓").send()
+    await cl.Message(content="**Was the hype worth it?** 🍓🍓🍓").send()
 
 @cl.on_message
 async def main(message: cl.Message):
@@ -29,7 +29,7 @@ async def main(message: cl.Message):
 
         # Call OpenAI API
         stream = client.chat.completions.create(
-            model="o1-preview-2024-09-12",  # Using the correct model name
+            model="o1-preview",  # Using the correct model name
             messages=conversation_history + [{"role": "user", "content": message.content}],
             stream=True,
         )
